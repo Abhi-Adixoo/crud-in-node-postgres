@@ -1,0 +1,19 @@
+{
+  "name": "crud-in-node-postgres",
+  "version": "1.0.0",
+  "description": "Implementing CRUD (Create, Read, Update, Delete) operations in a Node.js application using a PostgreSQL database.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "pg": "^8.11.5"
+  }
+}
